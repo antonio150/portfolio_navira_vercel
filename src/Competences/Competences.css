@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Barriecito");
+
+.competences{
+        margin: auto;
+        text-align: center;
+        padding: 45px;
+        background: rgb(49, 67, 183);
+}
+
+
+#img_logo{
+        width: 150px;
+        height: auto;
+        margin: 15px;
+        
+}
+
+#img_logo:hover{
+        
+        animation: moveImage 3s ease-in infinite ;
+}
+
+@keyframes moveImage{
+        0%{
+                margin: 0rem;
+        }
+
+        50%{
+                margin: 5rem;
+        }
+
+        100%{
+                /* transform: translateX(5rem); */
+                margin: 0rem;
+        }
+}
+
+/* #img_logo:not(:hover){
+        
+        animation: moveImageleft 1s ease-in normal ;
+}
+
+@keyframes moveImageleft{
+        0%{
+                transform: translateX(5rem);
+        }
+
+      
+
+        100%{
+                transform: translateX(0);
+        }
+} */
+
+.title_compete{
+        font-size: 5em;
+        font-family: 'Barriecito';
+        margin-bottom: 15px;
+        color: aliceblue;
+        
+}
+@media screen and (max-width: 645px) {
+        .title_compete{
+                font-size: 4.2em;
+                                
+        }
+}
+
+@media screen and (max-width: 575px) {
+        .title_compete{
+                font-size: 4em;
+                                
+        }
+}
+
+@media screen and (max-width: 535px) {
+        .title_compete{
+                font-size: 3em;
+                                
+        }
+}
+
+@media screen and (max-width: 485px) {
+        .title_compete{
+                font-size: 2.5em;
+                                
+        }
+
+        #img_logo{
+                width: 100px;
+                height: auto;
+                margin: 10px;
+                
+        }
+}
+
+@media screen and (max-width: 350px) {
+        .title_compete{
+                font-size: 2em;
+                                
+        }
+}
+
+@media screen and (max-width: 300px) {
+        #img_logo{
+                width: 75px;
+        }
+
+        .title_compete{
+                font-size: 1.5em;
+                                
+        }
+}
+@media screen and (max-width: 296px) {
+        #img_logo{
+                width: 50px;
+        }
+}
+
+#compete_logo{
+        
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+}

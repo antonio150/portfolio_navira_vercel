@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Bevan");
+
+#form{
+        
+    padding: 70px;
+    font-size: 25px;
+    background: rgb(49, 67, 183);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#contact{
+        font-size: 50px;
+        font-family: 'Bevan';
+        text-align: center;
+}
+
+#label_input{
+        
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: baseline;
+}
+
+#label_input input{
+        width: 70%;
+        padding: 5px;
+        height: 30px;
+       color: #280c9b;
+        font-weight: 800;
+}
+
+#label_input textarea{
+        width: 70%;
+        height: 80px;
+        padding: 5px;
+       resize: none;
+       color: #280c9b;
+       font-weight: 800;
+
+}
+
+#submit{
+        background: #280c9b;
+        padding: 10px;
+        font-size: 25px;
+        color: aliceblue;
+        border: none;
+        margin-top: 35px;
+        margin-left: 90px;
+        border-radius: 8px;
+        box-shadow: 1px 1px 5px 5px white;
+}
+
+#contact_content{
+        width: 50%;
+}
+
+@media screen and (max-width: 956px) {
+        #contact_content{
+                width: 100%;
+        }
+
+        #img_contact_div{
+                margin: auto;
+        }
+}
+
+@media screen and (max-width: 540px) {
+        #submit{
+                margin: auto;
+                margin-top: 15px;
+                margin-bottom: 15px;
+        }
+}
+
+
+@media screen and (max-width: 596px) {
+        #label_input label{
+                display: none;
+        }
+
+        #label_input input {
+                width: 100%;
+        }
+
+        #label_input textarea {
+                width: 100%;
+        }
+
+        #img_contact{
+                width: 100%;
+        }
+
+}
+
+@media screen and (max-width: 596px) {
+      
+       #form{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 5px;
+        padding-right: 5px;
+       }
+
+}
+
+@media screen and (max-width: 345px) {
+        #submit{
+                font-size: 15px;
+        }
+
+        #contact{
+                font-size: 33px;
+        }
+
+}

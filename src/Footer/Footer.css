@@ -1,0 +1,23 @@
+#footer{
+        background:rgb(22, 33, 99);
+        color: aliceblue;
+        text-align: center;
+        font-size: 1.5em;
+        padding: 25px;
+}
+
+@media screen and (max-width: 585px) {
+        #footer{
+                padding: 15px;
+                font-size: 1em;
+              
+        }
+}
+
+@media screen and (max-width: 395px) {
+        #footer{
+                padding: 13px;
+                font-size: 0.6em;
+              
+        }
+}

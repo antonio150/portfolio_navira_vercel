@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+
+html {
+        scroll-behavior: smooth;
+      }
+
+.menu{
+        z-index: 5;
+    display: flex;
+    font-size: 2em;
+    font-family: 'Allerta Stencil';
+    position: fixed;
+    padding-bottom: 10px;
+    padding-top: 7px;
+    width: 100%;
+    top: 0px;
+    color: aliceblue;
+    background:rgb(49, 67, 183);
+}
+
+.listPage{
+        display: flex;
+        position: absolute;
+        right: 3px;
+        font-size: 22px;
+        text-decoration: none;
+}
+
+
+
+#link_tag{
+        text-decoration: none;
+        color: aliceblue;
+}
+
+#link_tag:hover{
+        
+        color: rgb(235, 159, 159);
+}
+
+.listPage div{
+        margin-left: 10px;
+        margin-right: 10px;
+}
+
+#icon_mobile{
+        display: none;
+}
+
+#content_icon{
+        margin: auto;
+        display: none;
+}
+
+@media screen and (max-width: 1100px) {
+        #icon_mobile{
+                display: block;
+                position: absolute;
+                right: 5px;
+
+        }  
+        
+        .listPage{
+                display: none;
+
+        }
+
+        #content_icon{
+                
+                display: block;
+        }
+}
+

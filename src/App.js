@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { Helmet } from "react-helmet";
+import Competences from "./Competences/Competences";
+import { Contact } from "./Contact/Contact";
+import Footer from "./Footer/Footer";
+import Home from "./Home/Home";
+import Navbar from "./Navbar/navbar";
+import Presentation from "./Presentation/Presentation";
+import Projet from "./Projet/Projet";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+      <Helmet>
+                <meta charSet="utf-8" />
+                <title>Portfolio Navira</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
+      
+      <Navbar/>
+      <Home />
+      <Presentation />
+      <Competences />
+      <Projet />
+      <Contact/>
+      <Footer />
+      
     </div>
   );
 }

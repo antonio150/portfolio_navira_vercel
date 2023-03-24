@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One");
+
+
+#home{
+        
+    
+        padding: 15px;
+        padding-top: 85px;
+        padding-bottom: 85px;
+        background-color: rgb(49, 67, 183);
+        color: aliceblue;
+        font-size: 22px;
+        font-family: 'Alfa Slab One';
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: space-between;
+        align-items: flex-end;
+
+
+}
+
+#name{
+        font-size: 70px;
+        letter-spacing: 7px;
+}
+
+#social_link{
+        color: aliceblue;
+    text-decoration: none;
+    border: solid 1px aliceblue;
+    border-radius: 38px;
+    margin: 34px;
+    font-size: 29px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    box-shadow: 1px 1px 5px 4px white;
+}
+
+#social_div{
+        margin-top: 55px;
+        margin-bottom: 55px;
+        display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+
+#fond_antonio_img{
+     
+        width: 340px;
+        height: 340px;
+        
+        padding: 0px;
+        border-radius: 170px;
+        /* box-shadow: 0px 0px 9px 9px #ffffff; */
+        animation: floatFondImagePhoto 6s ease-in-out infinite;
+}
+
+@keyframes floatFondImagePhoto{
+        0%{
+                transform: rotate(0);
+                right: 0px;
+        }
+
+        50%{
+                transform: rotate(-30deg);
+                right: 100px;
+
+        }
+
+        100%{
+                transform: rotate(0deg);
+                right: 0px;
+        }
+}
+
+
+
+
+@media screen and (max-width: 1020px) {
+        #img_antonio_a4{
+                margin-top: 45px;
+        }  
+}
+
+@media screen and (max-width: 949px) {
+        #fond_antonio_img{
+                margin-top: 55px;
+                animation: floatFondImagePhoto 6s ease-in-out infinite;
+        } 
+}
+
+@media screen and (max-width: 475px) {
+        #social_link{
+                color: aliceblue;
+                text-decoration: none;
+                border: solid 1px aliceblue;
+                border-radius: 38px;
+                margin: 20px;
+                font-size: 29px;
+                padding-left: 22px;
+                padding-right: 22px;
+                padding-bottom: 15px;
+                padding-top: 15px;
+                box-shadow: 1px 1px 5px 4px white;
+        }
+
+        #fond_antonio_img{
+     
+               
+                margin-top: 55px;
+                
+             
+                animation: floatFondImagePhoto 6s ease-in-out infinite;
+        }
+        
+}
+
+@media screen and (max-width: 430px) {
+        #fond_antonio_img{
+     
+                width: 240px;
+                height: 240px;
+                margin-top: 55px;
+                
+             
+                animation: floatFondImagePhoto 6s ease-in-out infinite;
+        }
+        
+}
+
+@media screen and (max-width: 391px) {
+        #social_link{
+                color: aliceblue;
+                text-decoration: none;
+                border: solid 1px aliceblue;
+                border-radius: 38px;
+                margin: 15px;
+                margin-right: 35px;
+                font-size: 29px;
+                padding-left: 7px;
+                padding-right: 7px;
+                padding-bottom: 3px;
+                padding-top: 3px;
+                box-shadow: 1px 1px 5px 4px white;
+        }
+        #name{
+                font-size: 60px;
+                letter-spacing: 5px;
+        }
+
+        p{
+                font-size: 19px;
+        }
+        
+}
+
+@media screen and (max-width: 300px) {
+        #fond_antonio_img{
+     
+                width: 203px;
+                height: 203px;
+             
+                animation: floatFondImagePhoto 6s ease-in-out infinite;
+        }
+
+        #name{
+                font-size: 40px;
+                letter-spacing: 5px;
+        }
+
+        p{
+                font-size: 15px;
+        }
+
+        #social_link{
+                
+                color: aliceblue;
+                text-decoration: none;
+                border: solid 1px aliceblue;
+                border-radius: 38px;
+                margin: 15px;
+                font-size: 29px;
+                padding-left: 7px;
+                padding-right: 7px;
+                padding-bottom: 3px;
+                padding-top: 3px;
+                box-shadow: 1px 1px 5px 4px white;
+        }
+        
+}
+
+#cv{
+        background-color: #072072;
+        width: 7.2em;
+        height: auto;
+        padding: 15px;
+        margin: auto;
+        text-decoration: none;
+        color: aliceblue;
+        box-shadow: 1px 1px 5px 5px white;
+        border-radius: 7px;
+        animation: changeColorPhoto 4s ease-in-out infinite; ;
+}
+
+#cd_div{
+        
+    margin-top: 16px;
+    padding-top: 15px;
+    margin-left: 16px;
+}
+
+@keyframes changeColorPhoto{
+        0%{
+                box-shadow: 0px 0px 9px 9px #f7f3f3;
+        }
+
+        45%{
+                
+                box-shadow: 0px 0px 9px 9px #f00707;
+
+        }
+
+        75%{
+                box-shadow: 0px 0px 9px 9px #07f041;
+        }
+
+        100%{
+                box-shadow: 0px 0px 9px 9px #f3f2f4;
+        }
+}
+
+
+
