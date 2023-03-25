@@ -10,12 +10,14 @@
 .title{
         font-size: 3em;
         margin: 1em;
+        font-family: 'Bevan';
 }
 
 .title_projet{
         font-size: 2em;
         margin-bottom: 2em;
         margin-top: 2em;
+        font-family: 'Bevan';
 
 }
 
@@ -39,11 +41,40 @@
 }
 
 #react{
-        width: 49.5%;
+        width: 100%;
         border-radius: 15px;
         height: auto;
         margin: 1px;
         border: solid 1px rgb(119, 54, 206);
+}
+
+#react_div{
+        
+    /* border: solid 1px wheat; */
+    width: 49.5%;
+    margin-bottom: 35px;
+    display: block;
+   text-align: left;
+}
+
+#react_link{
+        text-decoration: none;
+        color: white;
+}
+
+#site_link{
+        text-decoration: none;
+        color: white;
+        font-size: 23px;
+        
+}
+
+#site_link_div{
+        display: inline;
+}
+
+li{
+        list-style-type: square;
 }
 
 #description_bpm{
@@ -56,7 +87,7 @@
 @media screen and (max-width: 843px) {
 
        
-        #react{
+        #react_div{
                 width: 100%;
         } 
 
