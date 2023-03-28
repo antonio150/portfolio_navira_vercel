@@ -119,7 +119,7 @@ const Projet = () => {
                         L’automatisation et l’amélioration des processus permettent d’aboutir à une plus grande
                         efficacité par la réduction des couts et une qualité optimale. La réalisation du business Process
                         Management est un moyen de définir et de gérer les étapes d’un processus métier du début
-                        jusqu’à la fin.
+                        jusqu’à la fin .
                         </div>
                 </div>
         </div>
