@@ -93,6 +93,10 @@ const Projet = () => {
                 <div>
                         <img id="chatboat_img" src={miniLi} alt="miniLi"/>
                 </div>
+
+                <div>
+                <a id='site_link' href='https://github.com/antonio150/Minimum_ligne'>Voir <b>Répositorie</b> <AiFillGithub /></a>
+                </div>
         </div>
 
 
