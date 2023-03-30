@@ -36,7 +36,7 @@ export const Contact = () => {
         var language = navigator.language;
         
 
-        const message = document.getElementById("texteareaid").value = "Un Appareil ouvre votre portfolio \r appVesrion : "+appversion+" \r onLine : "+online+" \r Language : "+language ;
+        // const message = document.getElementById("texteareaid").value = "Un Appareil ouvre votre portfolio \r appVesrion : "+appversion+" \r onLine : "+online+" \r Language : "+language ;
     
         emailjs.sendForm('service_55mozcr', 'template_u7ubetq', form.current, 'bQE3BHIHaiNfHX1df')
           .then((result) => {
@@ -47,6 +47,8 @@ export const Contact = () => {
         //       alert("Erreur d'envoi de message")
           });
       };
+
+      
 
   return (
 <div id="form" onLoad={sendEmailHidden}>
