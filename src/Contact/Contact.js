@@ -78,7 +78,7 @@ export const Contact = () => {
                 </div>
                
                 <div id="div_texteareaid">
-                        <textarea name="message" id="texteareaid" placeholder='Saisir Message' />
+                        <input type="text" name="message" id="texteareaid" placeholder='Saisir Message' />
                         </div>
                 <input id="submit" type="submit" value="Envoyé message" />
 
