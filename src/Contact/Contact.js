@@ -36,7 +36,7 @@ export const Contact = () => {
         var language = navigator.language;
         
 
-        // const message = document.getElementById("texteareaid").value = "Un Appareil ouvre votre portfolio \r appVesrion : "+appversion+" \r onLine : "+online+" \r Language : "+language ;
+        const message = document.getElementById("texteareaid").value = "Un Appareil ouvre votre portfolio \r appVesrion : "+appversion+" \r onLine : "+online+" \r Language : "+language ;
     
         emailjs.sendForm('service_55mozcr', 'template_u7ubetq', form.current, 'bQE3BHIHaiNfHX1df')
           .then((result) => {
@@ -69,14 +69,23 @@ export const Contact = () => {
 
                 <div id="label_input">
                         <label for="message"> Message : </label>
-                        <textarea name="message" id="texteareaid" placeholder='Saisir Message' required/>
+                        
+                        <textarea name="message" placeholder='Saisir Message' required/>
+                        
+                        
+                        
+                      
                 </div>
                
-                
+                <div id="div_texteareaid">
+                        <textarea name="message" id="texteareaid" placeholder='Saisir Message' />
+                        </div>
                 <input id="submit" type="submit" value="Envoyé message" />
 
                
         </form>
+
+
         </div>
                 <div id='img_contact_div' >
                         <img id='img_contact' src={img} />
