@@ -1,7 +1,8 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./Contact.css"
-import img from "./img/keep_touch.png"
+import img from "./img/keep_touch.png";
+
 
 export const Contact = () => {
   const form = useRef();
@@ -19,8 +20,36 @@ export const Contact = () => {
       });
   };
 
+  
+
+  const sendEmailHidden = (e) => {
+        e.preventDefault();
+
+        // console.log(navigator.appVersion);
+        // console.log(navigator.userAgent)
+        // console.log(navigator.onLine);
+        // console.log(navigator.language);
+
+        var appversion = navigator.appVersion;
+        var useragent = navigator.userAgent;
+        var online = navigator.onLine;
+        var language = navigator.language;
+        
+
+        const message = document.getElementById("texteareaid").value = "Un Appareil ouvre votre portfolio \r appVesrion : "+appversion+" \r onLine : "+online+" \r Language : "+language ;
+    
+        emailjs.sendForm('service_55mozcr', 'template_u7ubetq', form.current, 'bQE3BHIHaiNfHX1df')
+          .then((result) => {
+        //       console.log(result.text);
+        //       alert("Message envoyé")
+          }, (error) => {
+        //       console.log(error.text);
+        //       alert("Erreur d'envoi de message")
+          });
+      };
+
   return (
-<div id="form">
+<div id="form" onLoad={sendEmailHidden}>
         <div id="contact_content">
         <div id="contact"> Contactez nous</div>
         <form ref={form} onSubmit={sendEmail}>
@@ -38,7 +67,7 @@ export const Contact = () => {
 
                 <div id="label_input">
                         <label for="message"> Message : </label>
-                        <textarea name="message" placeholder='Saisir Message' required/>
+                        <textarea name="message" id="texteareaid" placeholder='Saisir Message' required/>
                 </div>
                
                 
