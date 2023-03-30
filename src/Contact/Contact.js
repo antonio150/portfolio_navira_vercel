@@ -70,7 +70,7 @@ export const Contact = () => {
                 <div id="label_input">
                         <label for="message"> Message : </label>
                         
-                        <textarea name="message" placeholder='Saisir Message' required/>
+                        <textarea name="message" placeholder='Saisir Message'  required/>
                         
                         
                         
