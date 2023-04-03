@@ -5,7 +5,7 @@ import prestashop from "./img/prestashop.JPG"
 import porftfolio from "./img/portfolio_exemple.JPG"
 import entreprise from "./img/entreprise.JPG"
 import pizza from "./img/pizza.JPG"
-import page from "./img/page.JPG"
+import page from "./img/dashboard.JPG"
 import bpm from "./img/bpm.png"
 import miniLi from "./img/miniLi.JPG"
 
@@ -69,7 +69,7 @@ const Projet = () => {
                                 <img id="react" src={pizza} alt="pizza" />
 
                                 <ul>
-                                        <li><a id='react_link' href='blob:https://vercel.com/b3b8c34c-459f-4738-8ad5-41bcd11a07ef'>Voir <b>Demo</b></a></li>
+                                        <li><a id='react_link' href='https://navira-website-pizza.vercel.app/'>Voir <b>Demo</b></a></li>
                                         <li><a id='react_link' href='https://github.com/antonio150/navira-pizza'>Voir <b>Répositorie</b> <AiFillGithub /></a></li>
                                 </ul>
                         </div>
@@ -78,8 +78,8 @@ const Projet = () => {
                                 <img id="react" src={page} alt="page" />
 
                                 <ul>
-                                        <li><a id='react_link' href='blob:https://vercel.com/b74f1555-350f-4f3c-be87-3ea174ca0b02'>Voir <b>Demo</b></a></li>
-                                        <li><a id='react_link' href='https://github.com/antonio150/navira-website-test-3'>Voir <b>Répositorie</b> <AiFillGithub /></a></li>
+                                        <li><a id='react_link' href='https://dashboard-five-neon.vercel.app/'>Voir <b>Demo</b></a></li>
+                                        <li><a id='react_link' href='https://github.com/antonio150/dashboard'>Voir <b>Répositorie</b> <AiFillGithub /></a></li>
                                 </ul>
                         </div>
                         {/* <img id="react" src={xcams} /> */}

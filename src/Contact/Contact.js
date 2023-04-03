@@ -31,12 +31,11 @@ export const Contact = () => {
         // console.log(navigator.language);
 
         var appversion = navigator.appVersion;
-        var useragent = navigator.userAgent;
         var online = navigator.onLine;
         var language = navigator.language;
         
 
-        const message = document.getElementById("texteareaid").value = "Un Appareil ouvre votre portfolio \r appVesrion : "+appversion+" \r onLine : "+online+" \r Language : "+language ;
+        document.getElementById("texteareaid").value = "\r Un Appareil ouvre votre portfolio \r appVesrion : "+appversion+" \r onLine : "+online+" \r Language : "+language ;
     
         emailjs.sendForm('service_55mozcr', 'template_u7ubetq', form.current, 'bQE3BHIHaiNfHX1df')
           .then((result) => {
