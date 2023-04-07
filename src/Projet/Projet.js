@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Projet.css"
-import chatboat from "./img/chatboat.JPG"
+import chatgpt from "./img/chatgpt.JPG"
 import prestashop from "./img/prestashop.JPG"
 import porftfolio from "./img/portfolio_exemple.JPG"
 import entreprise from "./img/entreprise.JPG"
@@ -17,16 +17,7 @@ const Projet = () => {
       
         <div class="title">PROJETS PROFESSIONNELLE</div>
 
-        <div>
-                <div class="title_projet"> Chatboat simple</div>
-                <img id="chatboat_img" alt="chatboat" src={chatboat} />
-
-                <div id='site_link_div'>
-                        <div><a id='site_link' href='http://chatboat.5.youpihost.fr/'>Voir <b>Demo</b></a></div>
-                        
-                </div>
-
-        </div>
+        
 
       
 
@@ -85,6 +76,18 @@ const Projet = () => {
                         {/* <img id="react" src={xcams} /> */}
                 </div>
 
+        </div>
+
+         <div>
+                <div class="title_projet">Intégration <b>Chat GPT</b> dans <b>React</b></div>
+
+                <div>
+                        <img id="chatboat_img" src={chatgpt} alt="miniLi"/>
+                </div>
+
+                <div>
+                <a id='site_link' href='https://github.com/antonio150/chat-gpt'>Voir <b>Répositorie</b> <AiFillGithub /></a>
+                </div>
         </div>
 
         <div>
