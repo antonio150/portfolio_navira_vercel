@@ -8,6 +8,11 @@ import pizza from "./img/pizza.JPG"
 import page from "./img/dashboard.JPG"
 import bpm from "./img/bpm.png"
 import miniLi from "./img/miniLi.JPG"
+import atm from "./img/atm.JPG"
+import etm from "./img/etm.JPG"
+import ritcheyl from "./img/ritcheyl.JPG"
+import tatitra from "./img/tatitra.JPG"
+
 
 import { AiFillGithub } from 'react-icons/ai'
 
@@ -29,6 +34,51 @@ const Projet = () => {
                                 <a id='site_link' href='https://wordpresstest.5.youpihost.fr/presta17'>Voir <b>Demo</b></a>
                                 {/* <li><a id='react_link' href='https://github.com/antonio150/navira-website-test-2'>Voir <b>Répositorie</b> <AiFillGithub /></a></li> */}
                        
+                </div>
+
+        </div>
+
+         <div >
+                <div class="title_projet"> WORDPRESS <b>(DIVI)</b></div>
+                <div class="react_content">
+                        <div id='react_div'>
+                                <img id="react" src={atm} alt="portfolio"/>
+
+                                <ul>
+                                        <li><a id='react_link' href='https://antso-tontolo-miaina.org/'>Voir <b>Demo</b></a></li>
+                                        
+                                </ul>
+                                
+                                
+                        </div>
+                        
+                        <div id='react_div'>
+                                <img id="react" src={etm} alt="entreprise" />
+
+                                <ul>
+                                        <li><a id='react_link' href='http://ritcheyl.crea-tic.net/accueil-copie/'>Voir <b>Demo</b></a></li>
+                                       
+                                </ul>
+                        </div>
+
+                        <div id='react_div'>
+                                <img id="react" src={tatitra} alt="pizza" />
+
+                                <ul>
+                                        <li><a id='react_link' href='http://tatitra.crea-tic.net/'>Voir <b>Demo</b></a></li>
+                                       
+                                </ul>
+                        </div>
+
+                        <div id='react_div'>
+                                <img id="react" src={ritcheyl} alt="page" />
+
+                                <ul>
+                                        <li><a id='react_link' href='http://ritcheyl.crea-tic.net/accueil-ritcheyl-2/'>Voir <b>Demo</b></a></li>
+                                        
+                                </ul>
+                        </div>
+                        {/* <img id="react" src={xcams} /> */}
                 </div>
 
         </div>

@@ -65,7 +65,7 @@ const Navbar = () => {
                 </div>
 
                 <div id="listPage_div">
-                <a id="link_tag" href="#projet">Projet</a> 
+                <a id="link_tag" href="#projet">Projets</a> 
                         
                 </div>
 
@@ -100,7 +100,7 @@ const Navbar = () => {
                 </div>
 
                 <div>
-                <a id="link_tag" href="#projet">Projet</a> 
+                <a id="link_tag" href="#projet">Projets</a> 
                         
                 </div>
 

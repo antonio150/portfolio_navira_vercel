@@ -9,7 +9,7 @@ import Prestashop from "./img/Prestashop.png"
 import react from "./img/react.png"
 import symfony from "./img/symfony.png"
 import jquery from "./img/jquery-cours.png"
-
+import WordPressLogo from "./img/WordPress-Logo.jpg"
 
 
 const Competences = () => {
@@ -27,6 +27,7 @@ const Competences = () => {
                 <img id="img_logo" src={Prestashop} />
                 <img id="img_logo" src={react} />
                 <img id="img_logo" src={symfony} />
+                <img id="img_logo" src={WordPressLogo} />
         </div>
       
     </div>
