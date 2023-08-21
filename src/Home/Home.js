@@ -12,6 +12,9 @@ import { FaFacebookF, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
 const Home = () => {
 
   const el = React.useRef(null);
+  localStorage.setItem("username", "sasa");
+
+  console.log(localStorage.getItem("username"))
 
 React.useEffect(() => {
   const typed = new Typed(el.current, {

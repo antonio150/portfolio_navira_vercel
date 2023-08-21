@@ -28,7 +28,9 @@ const Projet = () => {
 
         <div>
                 <div class="title_projet"> Modification de theme <b>Prestashop</b></div>
+                          <a href='https://wordpresstest.5.youpihost.fr/presta17'>
                 <img id="chatboat_img" alt="prestashop" src={prestashop} />
+                          </a>
                 <div>
                        
                                 <a id='site_link' href='https://wordpresstest.5.youpihost.fr/presta17'>Voir <b>Demo</b></a>
@@ -39,47 +41,18 @@ const Projet = () => {
         </div>
 
          <div >
-                <div class="title_projet"> WORDPRESS <b>(DIVI)</b></div>
-                <div class="react_content">
-                        <div id='react_div'>
-                                <img id="react" src={atm} alt="portfolio"/>
-
+                          <div class="title_projet"> WORDPRESS <b>(DIVI)</b></div>
+                          <a href='https://antso-tontolo-miaina.org/'>
+                                  <img id="react" src={atm} alt="portfolio" />
+                          </a>
                                 <ul>
                                         <li><a id='react_link' href='https://antso-tontolo-miaina.org/'>Voir <b>Demo</b></a></li>
                                         
                                 </ul>
-                                
-                                
-                        </div>
-                        
-                        <div id='react_div'>
-                                <img id="react" src={etm} alt="entreprise" />
 
-                                <ul>
-                                        <li><a id='react_link' href='http://ritcheyl.crea-tic.net/accueil-copie/'>Voir <b>Demo</b></a></li>
-                                       
-                                </ul>
-                        </div>
 
-                        <div id='react_div'>
-                                <img id="react" src={tatitra} alt="pizza" />
 
-                                <ul>
-                                        <li><a id='react_link' href='http://tatitra.crea-tic.net/'>Voir <b>Demo</b></a></li>
-                                       
-                                </ul>
-                        </div>
 
-                        <div id='react_div'>
-                                <img id="react" src={ritcheyl} alt="page" />
-
-                                <ul>
-                                        <li><a id='react_link' href='http://ritcheyl.crea-tic.net/accueil-ritcheyl-2/'>Voir <b>Demo</b></a></li>
-                                        
-                                </ul>
-                        </div>
-                        {/* <img id="react" src={xcams} /> */}
-                </div>
 
         </div>
 
@@ -87,8 +60,9 @@ const Projet = () => {
                 <div class="title_projet"> Projet <b>React</b></div>
                 <div class="react_content">
                         <div id='react_div'>
+                                          <a href='https://navira-website-test-2.vercel.app/'>
                                 <img id="react" src={porftfolio} alt="portfolio"/>
-
+                                          </a>
                                 <ul>
                                         <li><a id='react_link' href='https://navira-website-test-2.vercel.app/'>Voir <b>Demo</b></a></li>
                                         <li><a id='react_link' href='https://github.com/antonio150/navira-website-test-2'>Voir <b>Répositorie</b> <AiFillGithub /></a></li>
@@ -98,8 +72,9 @@ const Projet = () => {
                         </div>
                         
                         <div id='react_div'>
+                                          <a href='https://navira-website-test-1-f2v7.vercel.app/'>
                                 <img id="react" src={entreprise} alt="entreprise" />
-
+                                          </a>
                                 <ul>
                                         <li><a id='react_link' href='https://navira-website-test-1-f2v7.vercel.app/'>Voir <b>Demo</b></a></li>
                                         <li><a id='react_link' href='https://github.com/antonio150/navira-website-test-1'>Voir <b>Répositorie</b> <AiFillGithub /></a></li>
@@ -107,8 +82,9 @@ const Projet = () => {
                         </div>
 
                         <div id='react_div'>
+                                          <a id='react_link' href='https://navira-website-pizza.vercel.app/'>
                                 <img id="react" src={pizza} alt="pizza" />
-
+                                          </a>
                                 <ul>
                                         <li><a id='react_link' href='https://navira-website-pizza.vercel.app/'>Voir <b>Demo</b></a></li>
                                         <li><a id='react_link' href='https://github.com/antonio150/navira-pizza'>Voir <b>Répositorie</b> <AiFillGithub /></a></li>
@@ -116,8 +92,9 @@ const Projet = () => {
                         </div>
 
                         <div id='react_div'>
+                                          <a href='https://dashboard-five-neon.vercel.app/'>
                                 <img id="react" src={page} alt="page" />
-
+                                          </a>
                                 <ul>
                                         <li><a id='react_link' href='https://dashboard-five-neon.vercel.app/'>Voir <b>Demo</b></a></li>
                                         <li><a id='react_link' href='https://github.com/antonio150/dashboard'>Voir <b>Répositorie</b> <AiFillGithub /></a></li>
@@ -131,8 +108,8 @@ const Projet = () => {
          <div>
                 <div class="title_projet">Intégration <b>Chat GPT</b> dans <b>React</b></div>
 
-                <div>
-                        <img id="chatboat_img" src={chatgpt} alt="miniLi"/>
+                          <div><a href='https://github.com/antonio150/chat-gpt'>
+                                  <img id="chatboat_img" src={chatgpt} alt="miniLi" /></a>
                 </div>
 
                 <div>
@@ -143,8 +120,8 @@ const Projet = () => {
         <div>
                 <div class="title_projet">Projet <b>JavaScript</b></div>
 
-                <div>
-                        <img id="chatboat_img" src={miniLi} alt="miniLi"/>
+                          <div><a href='https://github.com/antonio150/Minimum_ligne'>
+                                  <img id="chatboat_img" src={miniLi} alt="miniLi" /></a>
                 </div>
 
                 <div>
@@ -155,8 +132,8 @@ const Projet = () => {
 
         <div>
                 <div class="title_projet">Projet <b>Symfony</b></div>
-                <div>
-                        <img id="chatboat_img" src={bpm} alt="bpm" />
+                          <div><a href='https://github.com/antonio150/bpmn'>
+                                  <img id="chatboat_img" src={bpm} alt="bpm" /></a>
                 </div>
 
                 <div>
