@@ -11,7 +11,7 @@ import miniLi from "./img/miniLi.JPG"
 import atm from "./img/atm.JPG"
 import etm from "./img/etm.JPG"
 import ritcheyl from "./img/ritcheyl.JPG"
-import tatitra from "./img/tatitra.JPG"
+import ingredient from "./img/ingredient.JPG"
 
 
 import { AiFillGithub } from 'react-icons/ai'
@@ -26,19 +26,7 @@ const Projet = () => {
 
       
 
-        <div>
-                <div class="title_projet"> Modification de theme <b>Prestashop</b></div>
-                          <a href='https://wordpresstest.5.youpihost.fr/presta17'>
-                <img id="chatboat_img" alt="prestashop" src={prestashop} />
-                          </a>
-                <div>
-                       
-                                <a id='site_link' href='https://wordpresstest.5.youpihost.fr/presta17'>Voir <b>Demo</b></a>
-                                {/* <li><a id='react_link' href='https://github.com/antonio150/navira-website-test-2'>Voir <b>Répositorie</b> <AiFillGithub /></a></li> */}
-                       
-                </div>
 
-        </div>
 
          <div >
                           <div class="title_projet"> WORDPRESS <b>(DIVI)</b></div>
@@ -129,6 +117,27 @@ const Projet = () => {
                 </div>
         </div>
 
+                  <div>
+                          <div class="title_projet">Projet <b>Symfony</b></div>
+                          <div><a href='https://github.com/antonio150/bpmn'>
+                                  <img id="chatboat_img" src={ingredient} alt="bpm" /></a>
+                          </div>
+
+                          <div>
+                                  <a id='site_link' href='https://github.com/antonio150/Ingredient'>Voir <b>Répositorie</b> <AiFillGithub /></a>
+                          </div>
+
+                  </div>
+                  <div>
+                          <div id="description_bpm">Déscription de projet </div>
+
+                          <div id="description_bpm_txt">
+                                  Dans ce projet, j'ai fait des CRUD du ingredient et recette. <br />
+                                  Mais la plus important est au niveau de la securité. J'ai créer compte
+                                  utilisateur et chaque utilisateur doit d'abord se connecter avant d'acceder au
+                                  ingredient et recette.
+                          </div>
+                  </div>
 
         <div>
                 <div class="title_projet">Projet <b>Symfony</b></div>
