@@ -124,7 +124,7 @@ const Projet = () => {
                                 </div>
 
                                 <div>
-                                        <a id='site_link' href='https://demo001.creativedev-madagascar.com/Arys_v240320/index.php?controller=login&action=index'>Voir <b>démo</b> <AiFillGithub /></a>
+                                        <a id='site_link' href='https://demo001.creativedev-madagascar.com/Arys_v240320/index.php?controller=login&action=index'>Voir <b>démo</b></a>
                                 </div>
 
 
