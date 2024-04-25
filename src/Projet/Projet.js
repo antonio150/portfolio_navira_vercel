@@ -9,7 +9,7 @@ import page from "./img/dashboard.JPG"
 import bpm from "./img/bpm.png"
 import miniLi from "./img/miniLi.JPG"
 import atm from "./img/atm.JPG"
-import etm from "./img/etm.JPG"
+import symfony_gitlab from "./img/symfony_gitlab.png"
 import gestionEcole from "./img/gestionEcole.JPG"
 import ingredient from "./img/ingredient.JPG"
 
@@ -131,6 +131,8 @@ const Projet = () => {
 
                         </div>
 
+
+
                         <div>
                                 <div class="title_projet">Projet <b>Symfony</b></div>
                                 <div><a href='https://github.com/antonio150/bpmn'>
@@ -173,6 +175,30 @@ const Projet = () => {
                                                 efficacité par la réduction des couts et une qualité optimale. La réalisation du business Process
                                                 Management est un moyen de définir et de gérer les étapes d’un processus métier du début
                                                 jusqu’à la fin .
+                                        </div>
+                                </div>
+                        </div>
+
+                        <div>
+                                <div class="title_projet">Projet <b>Symfony</b></div>
+                                <div><a href='https://gitlab.com/projet-travaille/symfony_gitlab'>
+                                        <img id="chatboat_img" src={symfony_gitlab} alt="bpm" /></a>
+                                </div>
+
+                                <div>
+                                        <a id='site_link' href='https://gitlab.com/projet-travaille/symfony_gitlab'>Voir <b>Répositorie</b> <AiFillGithub /></a>
+                                </div>
+
+
+                                <div>
+                                        <div id="description_bpm">Déscription de projet </div>
+
+                                        <div id="description_bpm_txt">
+                                                Dans ce projet, j'ai fait des CRUD du Invitation, Books, Authors, Users et Userbook. <br />
+                                                Mais la plus important est au niveau de la securité. J'ai créer compte
+                                                utilisateur et chaque utilisateur doit d'abord se connecter avant d'acceder au
+                                                page admin.
+                                                J'ai utilisé easyAdmin pour generer automatiquement l'interface admin.
                                         </div>
                                 </div>
                         </div>
