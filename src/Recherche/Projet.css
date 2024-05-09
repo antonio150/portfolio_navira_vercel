@@ -1,0 +1,181 @@
+.projet{
+        margin: auto;
+        padding: 15px;
+        padding-bottom: 100px;
+        text-align: center;
+        color: white;
+        background-color: #5a7be8;
+}
+
+.title{
+        font-size: 3em;
+        margin: 1em;
+        font-family: 'Bevan';
+}
+
+.title_projet{
+        font-size: 2em;
+        margin-bottom: 2em;
+        margin-top: 2em;
+        font-family: 'Bevan';
+
+}
+
+#chatboat_img{
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        margin: auto;
+        border-radius: 40px;
+        border: solid 1px rgb(119, 54, 206);
+}
+
+.react_content{
+        
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+#react{
+        width: 100%;
+        border-radius: 15px;
+        height: auto;
+        margin: 1px;
+        border: solid 1px rgb(119, 54, 206);
+}
+
+#react_div{
+        
+    /* border: solid 1px wheat; */
+    width: 49.5%;
+    margin-bottom: 35px;
+    display: block;
+   text-align: left;
+}
+
+#react_link{
+        text-decoration: none;
+        color: white;
+}
+
+#site_link{
+        text-decoration: none;
+        color: white;
+        font-size: 23px;
+        
+}
+
+#site_link_div{
+        display: inline;
+}
+
+li{
+        list-style-type: square;
+}
+
+#description_bpm{
+        font-size: 1.5em;
+        margin: 15px;
+
+
+}
+
+@media screen and (max-width: 843px) {
+
+       
+        #react_div{
+                width: 100%;
+        } 
+
+}
+
+@media screen and (max-width: 650px) {
+
+        .title{
+                font-size: 2.5em;
+        }
+
+       
+        #chatboat_img{
+              
+                border-radius: 17px;
+               
+        }
+}
+
+@media screen and (max-width: 545px) {
+
+        .title {
+                font-size: 2.2em;
+        }
+
+
+}
+
+@media screen and (max-width: 485px) {
+
+        .title {
+                font-size: 1.8em;
+        }
+
+
+}
+@media screen and (max-width: 410px) {
+
+        .title{
+                font-size: 1.5em;
+        }
+
+        .title_projet{
+                font-size: 1.4em;
+        }
+
+     
+}
+
+@media screen and (max-width: 340px) {
+
+        .title {
+                font-size: 1.2em;
+        }
+
+        .title_projet {
+                font-size: 1em;
+        }
+
+
+}
+
+@media screen and (max-width: 310px) {
+
+        .title{
+                font-size: 1em;
+        }
+
+        .title_projet{
+                font-size: 0.9em;
+        }
+
+        #description_bpm{
+                font-size: 0.9rem;
+                font-weight: bold;
+        }
+
+        #description_bpm_txt{
+                font-size: 0.7em;
+        }
+
+}
+
+@media screen and (max-width: 255px) {
+
+        .title{
+                margin: 0;
+        }
+
+}
+

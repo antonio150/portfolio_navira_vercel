@@ -6,6 +6,7 @@ import Home from "./Home/Home";
 import Navbar from "./Navbar/navbar";
 import Presentation from "./Presentation/Presentation";
 import Projet from "./Projet/Projet";
+import Recherche from "./Recherche/Recherche";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Presentation />
       <Competences />
       <Projet />
+      <Recherche />
       <Contact/>
       <Footer />
       

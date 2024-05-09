@@ -27,18 +27,11 @@ React.useEffect(() => {
 
   return (
     <div class="presentation" id="presentation">
-
-        
-
         <div class="define">
-               
                 <div class="nom">ANDRIANAVALONA Yves Antonio Rollande</div>
                 <div className="App">
-     
     </div>
-
                 <div class="description">
-
                 <span ref={el} />
                 </div>
 
