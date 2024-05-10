@@ -49,7 +49,7 @@ React.useEffect(() => {
          <a id="social_link" href='https://www.facebook.com/antonio.navira.9'><FaFacebookF/></a>
          <a id="social_link" href='https://www.instagram.com/antonionavira15/?hl=en'><FaInstagram /></a>
          <a id="social_link" href='https://twitter.com/antonio27572568'><FaTwitter /></a>
-         <a id="social_link" href='https://www.linkedin.com/in/antonio-rollande-yves-4753a7264/'><FaLinkedin /></a>
+         <a id="social_link" href='https://www.linkedin.com/in/antonio-rollande-yves-andrianavalona-4753a7264/'><FaLinkedin /></a>
         </div>
 
       <div id="cd_div">
