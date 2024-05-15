@@ -2,6 +2,7 @@ import React from "react";
 import "./Projet.css";
 import testSymfony from "./img/testSymfony.png";
 import docker from "./img/docker.png";
+import gestion_stock from "./img/gestion_stock.jpg";
 import { AiFillGithub } from "react-icons/ai";
 
 const Recherche = () => {
@@ -91,6 +92,35 @@ const Recherche = () => {
               </li>
             </ul>
           </div>
+        </div>
+        <div class="react_content">
+          <div id="react_div">
+            <div class="title_projet">Gestion de stock (En cours de réalisation)</div>
+            <a href="https://gitlab.com/projet-travaille/gestion_stock">
+              <img id="react" src={gestion_stock} alt="portfolio" />
+            </a>
+            <ul>
+              <li>
+                <a
+                  id="react_link"
+                  href="https://gitlab.com/projet-travaille/gestion_stock"
+                >
+                  Voir <b>Répositorie</b> <AiFillGithub />
+                </a>
+              </li>
+              <li>
+                <div id="description_bpm">Déscription du projet</div>
+
+                <div id="description_bpm_txt">
+                La gestion des stocks est le processus de gestion du flux des biens 
+                au sein d'une entreprise dans un cycle continu de commandes, de stockage, 
+                de production, de vente et de biens de restockage.
+                </div>
+              </li>
+            </ul>
+          </div>
+
+         
         </div>
       </div>
     </div>
