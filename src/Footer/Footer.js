@@ -13,7 +13,7 @@ const Footer = () => {
       <div>
         <GrMail/> : antoniorollande@gmail.com
       </div>
-      Copyright © 2023 by Navira | Tous droit reserver
+      Copyright © 2024 by Navira | Tous droit reserver
 
       
     </div>
