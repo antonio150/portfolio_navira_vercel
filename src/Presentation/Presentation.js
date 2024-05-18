@@ -10,7 +10,7 @@ const el = React.useRef(null);
 
 React.useEffect(() => {
   const typed = new Typed(el.current, {
-    strings: ['Etant diplomé de Master Professionnelle en Developpement web au sein de l`\'Ecole Nationale d\'    Informatique dans l\'Université de Fianarantsoa et la réalisation des différentes stage au sein des différentes grandes entreprises qui m`\'ont permis    d\'acquerir compétences pour la réalisation des différentes projet.'],
+    strings: ['Développeur PHP expérimenté avec plus de 1 an d\'expérience dans la conception, le développement et la maintenance d\'applications web. Compétent dans l\'utilisation des frameworks PHP modernes tels que Symfony. Passionné par le code propre et bien documenté, avec une forte capacité à résoudre les problèmes techniques.'],
     typeSpeed: 100,
     backSpeed: 100,
     cursorChar: '|',
