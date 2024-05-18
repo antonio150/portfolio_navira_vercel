@@ -188,7 +188,7 @@ const Projet = () => {
           <div id="description_bpm">Outils </div>
 
           <div className="react" id="description_bpm_txt">
-            PHP, Symfony, Twig, SQL, PHPUnit
+            PHP, Symfony 7, Twig, SQL, PHPUnit
           </div>
         </div>
 
@@ -224,7 +224,7 @@ const Projet = () => {
           </div>
 
           <div className="react" id="description_bpm_txt">
-            Symfony, Jquery, SQL, PHP, JavaScript
+            Symfony 6, Jquery, SQL, PHP 8, JavaScript
           </div>
         </div>
 
@@ -266,7 +266,7 @@ const Projet = () => {
           <div id="description_bpm">Outils </div>
 
           <div className="react" id="description_bpm_txt">
-            PHPUnit, Symfony, SQL, Docker, CI/CD, EasyAdmin
+            PHPUnit, Symfony 7, SQL, Docker, CI/CD, PHP 8,EasyAdmin
           </div>
         </div>
 
