@@ -3,8 +3,8 @@
         padding: 15px;
         padding-bottom: 100px;
         text-align: center;
-        color: white;
-        background-color: #5a7be8;
+        color: rgb(60, 84, 204);
+        background-color: #ffffff;
 }
 
 .title{
@@ -59,12 +59,12 @@
 
 #react_link{
         text-decoration: none;
-        color: white;
+        color: rgb(62, 95, 241);
 }
 
 #site_link{
         text-decoration: none;
-        color: white;
+        color: rgb(66, 86, 239);
         font-size: 23px;
         
 }

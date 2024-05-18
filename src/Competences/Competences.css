@@ -4,15 +4,28 @@
         margin: auto;
         text-align: center;
         padding: 45px;
-        background: rgb(49, 67, 183);
+        background: rgb(255, 255, 255);
 }
 
 
 #img_logo{
-        width: 200px;
-        height: auto;
+        width: auto;
+        height: 60px;
         margin: 15px;
         
+}
+
+.section_img{
+        display: inline;
+    
+}
+
+.align_img{
+        display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #img_logo:hover{
@@ -56,7 +69,7 @@
         font-size: 5em;
         font-family: 'Barriecito';
         margin-bottom: 15px;
-        color: aliceblue;
+        color: rgb(27, 7, 249);
         
 }
 @media screen and (max-width: 645px) {
@@ -119,9 +132,8 @@
 
 #compete_logo{
         
-    display: flex;
+        display: flex;
     flex-wrap: wrap;
-    align-content: space-between;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }

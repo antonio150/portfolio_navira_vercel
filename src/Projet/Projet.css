@@ -40,8 +40,17 @@
     flex-direction: row;
 }
 
-#react{
-        width: 100%;
+.react{
+        width: 50%;
+        border-radius: 15px;
+        height: auto;
+        margin: auto;
+        padding: 10px;
+        border: solid 1px rgb(119, 54, 206);
+}
+
+.size_image_react{
+        width: 93%;
         border-radius: 15px;
         height: auto;
         margin: 1px;
@@ -51,7 +60,7 @@
 #react_div{
         
     /* border: solid 1px wheat; */
-    width: 49.5%;
+    width: 95%;
     margin-bottom: 35px;
     display: block;
    text-align: left;
@@ -60,6 +69,10 @@
 #react_link{
         text-decoration: none;
         color: white;
+}
+
+.center_div{
+        text-align: center;
 }
 
 #site_link{
@@ -73,8 +86,8 @@
         display: inline;
 }
 
-li{
-        list-style-type: square;
+ul li{
+        list-style-type: none;
 }
 
 #description_bpm{
@@ -91,6 +104,11 @@ li{
                 width: 100%;
         } 
 
+        .react{
+                width: 80%;
+               
+        }
+        
 }
 
 @media screen and (max-width: 650px) {

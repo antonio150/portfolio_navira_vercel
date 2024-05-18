@@ -26,7 +26,7 @@ const Projet = () => {
           WORDPRESS <b>(DIVI)</b>
         </div>
         <a href="https://antso-tontolo-miaina.org/">
-          <img id="react" src={atm} alt="portfolio" />
+          <img class="react" src={atm} alt="portfolio" />
         </a>
         <ul>
           <li>
@@ -40,12 +40,12 @@ const Projet = () => {
       <div>
         <div class="title_projet">
           {" "}
-          Projet <b>React</b>
+           <b>React</b>
         </div>
         <div class="react_content">
           <div id="react_div">
             <a href="https://navira-website-test-2.vercel.app/">
-              <img id="react" src={porftfolio} alt="portfolio" />
+              <img className="size_image_react" src={porftfolio} alt="portfolio" />
             </a>
             <ul>
               <li>
@@ -69,7 +69,7 @@ const Projet = () => {
 
           <div id="react_div">
             <a href="https://navira-website-test-1-f2v7.vercel.app/">
-              <img id="react" src={entreprise} alt="entreprise" />
+              <img className="size_image_react" src={entreprise} alt="entreprise" />
             </a>
             <ul>
               <li>
@@ -93,7 +93,7 @@ const Projet = () => {
 
           <div id="react_div">
             <a id="react_link" href="https://navira-website-pizza.vercel.app/">
-              <img id="react" src={pizza} alt="pizza" />
+              <img className="size_image_react" src={pizza} alt="pizza" />
             </a>
             <ul>
               <li>
@@ -117,7 +117,7 @@ const Projet = () => {
 
           <div id="react_div">
             <a href="https://dashboard-five-neon.vercel.app/">
-              <img id="react" src={page} alt="page" />
+              <img className="size_image_react" src={page} alt="page" />
             </a>
             <ul>
               <li>
@@ -142,49 +142,17 @@ const Projet = () => {
         </div>
       </div>
 
-      <div>
-        <div class="title_projet">
-          Intégration <b>Chat GPT</b> dans <b>React</b>
-        </div>
+      
 
-        <div>
-          <a href="https://github.com/antonio150/chat-gpt">
-            <img id="chatboat_img" src={chatgpt} alt="miniLi" />
-          </a>
-        </div>
-
-        <div>
-          <a id="site_link" href="https://github.com/antonio150/chat-gpt">
-            Voir <b>Répositorie</b> <AiFillGithub />
-          </a>
-        </div>
-      </div>
+     
 
       <div>
         <div class="title_projet">
-          Projet <b>JavaScript</b>
-        </div>
-
-        <div>
-          <a href="https://github.com/antonio150/Minimum_ligne">
-            <img id="chatboat_img" src={miniLi} alt="miniLi" />
-          </a>
-        </div>
-
-        <div>
-          <a id="site_link" href="https://github.com/antonio150/Minimum_ligne">
-            Voir <b>Répositorie</b> <AiFillGithub />
-          </a>
-        </div>
-      </div>
-
-      <div>
-        <div class="title_projet">
-          Projet <b>PHP POO</b>
+           <b>PHP POO</b>
         </div>
         <div>
           <a href="https://demo001.creativedev-madagascar.com/Arys_v240320/index.php?controller=login&action=index">
-            <img id="chatboat_img" src={gestionEcole} alt="bpm" />
+            <img className="react" src={gestionEcole} alt="bpm" />
           </a>
         </div>
 
@@ -200,11 +168,11 @@ const Projet = () => {
 
       <div>
         <div class="title_projet">
-          Projet <b>Symfony</b>
+           <b>Symfony</b>
         </div>
         <div>
           <a href="https://github.com/antonio150/bpmn">
-            <img id="chatboat_img" src={ingredient} alt="bpm" />
+            <img className="react" src={ingredient} alt="bpm" />
           </a>
         </div>
 
@@ -214,10 +182,18 @@ const Projet = () => {
           </a>
         </div>
 
-        <div>
+        <div className="center_div">
+          <div id="description_bpm">Outils </div>
+
+          <div className="react" id="description_bpm_txt">
+            PHP, Symfony, Twig, SQL, PHPUnit
+          </div>
+        </div>
+
+        <div className="center_div">
           <div id="description_bpm">Déscription de projet </div>
 
-          <div id="description_bpm_txt">
+          <div className="react" id="description_bpm_txt">
             Dans ce projet, j'ai fait des CRUD du ingredient et recette. <br />
             Mais la plus important est au niveau de la securité. J'ai créer
             compte utilisateur et chaque utilisateur doit d'abord se connecter
@@ -227,11 +203,11 @@ const Projet = () => {
       </div>
       <div>
         <div class="title_projet">
-          Projet <b>Symfony</b>
+           <b>Symfony</b>
         </div>
         <div>
           <a href="https://github.com/antonio150/bpmn">
-            <img id="chatboat_img" src={bpm} alt="bpm" />
+            <img className="react" src={bpm} alt="bpm" />
           </a>
         </div>
 
@@ -243,10 +219,20 @@ const Projet = () => {
 
         <div>
           <div id="description_bpm">
+            Outils
+          </div>
+
+          <div className="react" id="description_bpm_txt">
+            Symfony, Jquery, SQL, PHP, JavaScript
+          </div>
+        </div>
+
+        <div>
+          <div id="description_bpm">
             Déscription de projet Business Process Management
           </div>
 
-          <div id="description_bpm_txt">
+          <div className="react" id="description_bpm_txt">
             Les processus sont présents dans les entreprises et organismes
             publics à tous les niveaux. L’automatisation et l’amélioration des
             processus permettent d’aboutir à une plus grande efficacité par la
@@ -259,11 +245,11 @@ const Projet = () => {
 
       <div>
         <div class="title_projet">
-          Projet <b>Symfony</b>
+           <b>Symfony</b>
         </div>
         <div>
           <a href="https://gitlab.com/projet-travaille/symfony_gitlab">
-            <img id="chatboat_img" src={symfony_gitlab} alt="bpm" />
+            <img className="react" src={symfony_gitlab} alt="bpm" />
           </a>
         </div>
 
@@ -277,9 +263,17 @@ const Projet = () => {
         </div>
 
         <div>
+          <div id="description_bpm">Outils </div>
+
+          <div className="react" id="description_bpm_txt">
+            PHPUnit, Symfony, SQL, Docker, CI/CD, EasyAdmin
+          </div>
+        </div>
+
+        <div>
           <div id="description_bpm">Déscription de projet </div>
 
-          <div id="description_bpm_txt">
+          <div className="react" id="description_bpm_txt">
             Dans ce projet, j'ai fait des CRUD du Invitation, Books, Authors,
             Users et Userbook. <br />
             Mais la plus important est au niveau de la securité. J'ai créer

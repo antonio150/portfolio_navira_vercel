@@ -7,8 +7,8 @@
         padding: 15px;
         padding-top: 85px;
         padding-bottom: 85px;
-        background-color: rgb(49, 67, 183);
-        color: aliceblue;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 46, 249);
         font-size: 22px;
         font-family: 'Alfa Slab One';
         display: flex;
@@ -26,9 +26,9 @@
 }
 
 #social_link{
-        color: aliceblue;
+        color: rgb(3, 19, 243);
     text-decoration: none;
-    border: solid 1px aliceblue;
+    border: solid 1px rgb(2, 130, 242);
     border-radius: 38px;
     margin: 34px;
     font-size: 29px;
@@ -36,7 +36,7 @@
     padding-right: 17px;
     padding-bottom: 15px;
     padding-top: 15px;
-    box-shadow: 1px 1px 5px 4px white;
+    box-shadow: 1px 1px 5px 4px rgb(6, 2, 243);
 }
 
 #social_div{
@@ -97,9 +97,9 @@
 
 @media screen and (max-width: 475px) {
         #social_link{
-                color: aliceblue;
+                color: rgb(0, 55, 255);
                 text-decoration: none;
-                border: solid 1px aliceblue;
+                border: solid 1px rgb(0, 25, 250);
                 border-radius: 38px;
                 margin: 20px;
                 font-size: 29px;
@@ -107,7 +107,7 @@
                 padding-right: 22px;
                 padding-bottom: 15px;
                 padding-top: 15px;
-                box-shadow: 1px 1px 5px 4px white;
+                box-shadow: 1px 1px 5px 4px rgb(0, 55, 253);
         }
 
         #fond_antonio_img{
@@ -136,9 +136,9 @@
 
 @media screen and (max-width: 391px) {
         #social_link{
-                color: aliceblue;
+                color: rgb(0, 17, 255);
                 text-decoration: none;
-                border: solid 1px aliceblue;
+                border: solid 1px rgb(13, 0, 255);
                 border-radius: 38px;
                 margin: 15px;
                 margin-right: 35px;
@@ -147,7 +147,7 @@
                 padding-right: 7px;
                 padding-bottom: 3px;
                 padding-top: 3px;
-                box-shadow: 1px 1px 5px 4px white;
+                box-shadow: 1px 1px 5px 4px rgb(34, 0, 255);
         }
         #name{
                 font-size: 60px;
@@ -180,9 +180,9 @@
 
         #social_link{
                 
-                color: aliceblue;
+                color: rgb(8, 0, 255);
                 text-decoration: none;
-                border: solid 1px aliceblue;
+                border: solid 1px rgb(0, 0, 254);
                 border-radius: 38px;
                 margin: 15px;
                 font-size: 29px;
@@ -190,7 +190,7 @@
                 padding-right: 7px;
                 padding-bottom: 3px;
                 padding-top: 3px;
-                box-shadow: 1px 1px 5px 4px white;
+                box-shadow: 1px 1px 5px 4px rgb(0, 34, 255);
         }
         
 }
@@ -202,8 +202,8 @@
         padding: 15px;
         margin: auto;
         text-decoration: none;
-        color: aliceblue;
-        box-shadow: 1px 1px 5px 5px white;
+        color: rgb(255, 255, 255);
+        box-shadow: 1px 1px 5px 5px rgb(21, 0, 253);
         border-radius: 7px;
         animation: changeColorPhoto 4s ease-in-out infinite; ;
 }
