@@ -150,6 +150,7 @@ const Projet = () => {
         <div class="title_projet">
            <b>PHP POO</b>
         </div>
+        <div class="titre_projet">Gestion d'école </div>
         <div>
           <a href="https://demo001.creativedev-madagascar.com/Arys_v240320/index.php?controller=login&action=index">
             <img className="react" src={gestionEcole} alt="bpm" />
