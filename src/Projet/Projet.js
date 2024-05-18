@@ -165,11 +165,12 @@ const Projet = () => {
           </a>
         </div>
       </div>
-
+<hr />
       <div>
         <div class="title_projet">
            <b>Symfony</b>
         </div>
+        <div class="titre_projet">Gestion des ingrédient </div>
         <div>
           <a href="https://github.com/antonio150/bpmn">
             <img className="react" src={ingredient} alt="bpm" />
@@ -201,10 +202,9 @@ const Projet = () => {
           </div>
         </div>
       </div>
+      <hr />
       <div>
-        <div class="title_projet">
-           <b>Symfony</b>
-        </div>
+      <div class="titre_projet">Gestion de processus métier </div>
         <div>
           <a href="https://github.com/antonio150/bpmn">
             <img className="react" src={bpm} alt="bpm" />
@@ -244,9 +244,8 @@ const Projet = () => {
       </div>
 
       <div>
-        <div class="title_projet">
-           <b>Symfony</b>
-        </div>
+        <hr />
+      <div class="titre_projet">Gestion de livre </div>
         <div>
           <a href="https://gitlab.com/projet-travaille/symfony_gitlab">
             <img className="react" src={symfony_gitlab} alt="bpm" />

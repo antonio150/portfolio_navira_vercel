@@ -40,6 +40,11 @@
     flex-direction: row;
 }
 
+.titre_projet{
+        font-size: 1.9em;
+        margin: 15px;    
+}
+
 .react{
         width: 50%;
         border-radius: 15px;
