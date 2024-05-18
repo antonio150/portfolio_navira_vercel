@@ -165,7 +165,7 @@ const Projet = () => {
           </a>
         </div>
       </div>
-<hr />
+
       <div>
         <div class="title_projet">
            <b>Symfony</b>
