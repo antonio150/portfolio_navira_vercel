@@ -165,6 +165,27 @@ const Projet = () => {
             Voir <b>démo</b>
           </a>
         </div>
+        <div className="center_div">
+          <div id="description_bpm">Outils </div>
+
+          <div className="react" id="description_bpm_txt">
+            PHP 8, Jquery, SQL, HTML5, CSS
+          </div>
+        </div>
+
+        <div className="center_div">
+          <div id="description_bpm">Déscription de projet </div>
+
+          <div className="react" id="description_bpm_txt">
+            Ce projet permet d'enregistrer les étudiants, les enseignants, les secretariats 
+            ainsi que le directeur de l'ecole.
+            Etudiant, enseignant, secretaire et directeur sont des types d'utilisateur 
+            dans ce projet.
+            Cette application peut calculer la somme de caisse chaque année, chaque mois ou chaque jour
+            pour faire l'evaluation de caisse entrant et sortant.
+            Pour faciliter la gestion des notes ainsi que la gestion de programme scolaire.
+          </div>
+        </div>
       </div>
 
       <div>
