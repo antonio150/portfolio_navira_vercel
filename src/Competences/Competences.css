@@ -26,6 +26,9 @@
     align-content: center;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid blue;
+    border-radius: 9px;
+    margin: 10px;
 }
 
 #img_logo:hover{
@@ -134,6 +137,6 @@
         
         display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
 }
