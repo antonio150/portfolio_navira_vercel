@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  portfolionaviravercel:
+    image: portfolionaviravercel
+    build:
+      context: .
+      dockerfile: ./Dockerfile

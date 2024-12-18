@@ -95,7 +95,7 @@ const Recherche = () => {
         </div>
         <div class="react_content">
           <div id="react_div">
-            <div class="title_projet">Gestion de stock (En cours de réalisation)</div>
+            <div class="title_projet">Gestion de stock </div>
             <a href="https://gitlab.com/projet-travaille/gestion_stock">
               <img id="react" src={gestion_stock} alt="portfolio" />
             </a>
