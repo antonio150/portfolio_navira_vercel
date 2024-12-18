@@ -120,6 +120,33 @@ const Recherche = () => {
             </ul>
           </div>
 
+          <div id="react_div">
+            <div class="title_projet">Sulu (CMS Symfony)(En cours de réalisation) </div>
+            <a href="https://github.com/antonio150/sulu_projet">
+              <img id="react" src="https://cmscritic.com/ms-content/uploads/2023/08/sulu_mk6bz6.jpg?format=auto&width=2048" alt="portfolio" />
+            </a>
+            <ul>
+              <li>
+                <a
+                  id="react_link"
+                  href="https://github.com/antonio150/sulu_projet"
+                >
+                  Voir <b>Répositorie</b> <AiFillGithub />
+                </a>
+              </li>
+              <li>
+                <div id="description_bpm">Déscription du projet</div>
+
+                <div id="description_bpm_txt">
+                Sulu est un CMS open-source (Content Management System) basé sur Symfony, 
+                conçu pour les projets numériques complexes et les sites web multilingues ou multisites. 
+                Il est particulièrement populaire dans le développement d'applications web pour les entreprises, 
+                car il combine la flexibilité d'un framework comme Symfony avec les fonctionnalités d'un CMS clé en main.
+                </div>
+              </li>
+            </ul>
+          </div>
+
          
         </div>
       </div>
