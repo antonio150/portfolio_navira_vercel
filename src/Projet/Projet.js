@@ -1,13 +1,11 @@
 import React from "react";
 import "./Projet.css";
-import chatgpt from "./img/chatgpt.JPG";
-import prestashop from "./img/prestashop.JPG";
+
 import porftfolio from "./img/portfolio_exemple.JPG";
 import entreprise from "./img/entreprise.JPG";
 import pizza from "./img/pizza.JPG";
 import page from "./img/dashboard.JPG";
 import bpm from "./img/bpm.png";
-import miniLi from "./img/miniLi.JPG";
 import atm from "./img/atm.JPG";
 import symfony_gitlab from "./img/symfony_gitlab.png";
 import gestionEcole from "./img/gestionEcole.JPG";
@@ -330,7 +328,7 @@ const Projet = () => {
           <div id="description_bpm">Outils </div>
 
           <div className="react" id="description_bpm_txt">
-            PHPUnit, Symfony 7, SQL, Docker, CI/CD, PHP 8,EasyAdmin
+            PHPUnit, Symfony 7, MySQL, Docker, CI/CD, PHP 8
           </div>
         </div>
 
