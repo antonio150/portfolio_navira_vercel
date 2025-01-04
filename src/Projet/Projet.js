@@ -12,6 +12,7 @@ import atm from "./img/atm.JPG";
 import symfony_gitlab from "./img/symfony_gitlab.png";
 import gestionEcole from "./img/gestionEcole.JPG";
 import ingredient from "./img/ingredient.JPG";
+import gestion_stock from "../Recherche/img/gestion_stock.jpg";
 
 import { AiFillGithub } from "react-icons/ai";
 
@@ -22,8 +23,7 @@ const Projet = () => {
 
       <div>
         <div class="title_projet">
-          {" "}
-          WORDPRESS <b>(DIVI)</b>
+          {" "}WORDPRESS <b>(DIVI)</b>
         </div>
         <a href="https://antso-tontolo-miaina.org/">
           <img class="react" src={atm} alt="portfolio" />
@@ -39,13 +39,16 @@ const Projet = () => {
 
       <div>
         <div class="title_projet">
-          {" "}
-           <b>React</b>
+          {" "}<b>React</b>
         </div>
         <div class="react_content">
           <div id="react_div">
             <a href="https://navira-website-test-2.vercel.app/">
-              <img className="size_image_react" src={porftfolio} alt="portfolio" />
+              <img
+                className="size_image_react"
+                src={porftfolio}
+                alt="portfolio"
+              />
             </a>
             <ul>
               <li>
@@ -69,7 +72,11 @@ const Projet = () => {
 
           <div id="react_div">
             <a href="https://navira-website-test-1-f2v7.vercel.app/">
-              <img className="size_image_react" src={entreprise} alt="entreprise" />
+              <img
+                className="size_image_react"
+                src={entreprise}
+                alt="entreprise"
+              />
             </a>
             <ul>
               <li>
@@ -142,13 +149,9 @@ const Projet = () => {
         </div>
       </div>
 
-      
-
-     
-
       <div>
         <div class="title_projet">
-           <b>PHP POO</b>
+          <b>PHP POO</b>
         </div>
         <div class="titre_projet">Gestion d'école </div>
         <div>
@@ -177,20 +180,20 @@ const Projet = () => {
           <div id="description_bpm">Déscription de projet </div>
 
           <div className="react" id="description_bpm_txt">
-            Ce projet permet d'enregistrer les étudiants, les enseignants, les secretariats 
-            ainsi que le directeur de l'ecole.
-            Etudiant, enseignant, secretaire et directeur sont des types d'utilisateur 
-            dans ce projet.
-            Cette application peut calculer la somme de caisse chaque année, chaque mois ou chaque jour
-            pour faire l'evaluation de caisse entrant et sortant.
-            Pour faciliter la gestion des notes ainsi que la gestion de programme scolaire.
+            Ce projet permet d'enregistrer les étudiants, les enseignants, les
+            secretariats ainsi que le directeur de l'ecole. Etudiant,
+            enseignant, secretaire et directeur sont des types d'utilisateur
+            dans ce projet. Cette application peut calculer la somme de caisse
+            chaque année, chaque mois ou chaque jour pour faire l'evaluation de
+            caisse entrant et sortant. Pour faciliter la gestion des notes ainsi
+            que la gestion de programme scolaire.
           </div>
         </div>
       </div>
 
       <div>
         <div class="title_projet">
-           <b>Symfony</b>
+          <b>Symfony</b>
         </div>
         <div class="titre_projet">Gestion des ingrédient </div>
         <div>
@@ -226,7 +229,7 @@ const Projet = () => {
       </div>
       <hr />
       <div>
-      <div class="titre_projet">Gestion de processus métier </div>
+        <div class="titre_projet">Gestion de processus métier </div>
         <div>
           <a href="https://github.com/antonio150/bpmn">
             <img className="react" src={bpm} alt="bpm" />
@@ -240,9 +243,7 @@ const Projet = () => {
         </div>
 
         <div>
-          <div id="description_bpm">
-            Outils
-          </div>
+          <div id="description_bpm">Outils</div>
 
           <div className="react" id="description_bpm_txt">
             Symfony 6, Jquery, SQL, PHP 8, JavaScript
@@ -267,7 +268,7 @@ const Projet = () => {
 
       <div>
         <hr />
-      <div class="titre_projet">Gestion de livre </div>
+        <div class="titre_projet">Gestion de livre </div>
         <div>
           <a href="https://gitlab.com/projet-travaille/symfony_gitlab">
             <img className="react" src={symfony_gitlab} alt="bpm" />
@@ -301,6 +302,45 @@ const Projet = () => {
             compte utilisateur et chaque utilisateur doit d'abord se connecter
             avant d'acceder au page admin. J'ai utilisé easyAdmin pour generer
             automatiquement l'interface admin.
+          </div>
+        </div>
+      </div>
+
+
+
+      <div>
+        <hr />
+        <div class="titre_projet">Gestion de stock </div>
+        <div>
+          <a href="https://github.com/antonio150/gestion_stock">
+            <img className="react" src={gestion_stock} alt="gestion_stock" />
+          </a>
+        </div>
+
+        <div>
+          <a
+            id="site_link"
+            href="https://github.com/antonio150/gestion_stock"
+          >
+            Voir <b>Répositorie</b> <AiFillGithub />
+          </a>
+        </div>
+
+        <div>
+          <div id="description_bpm">Outils </div>
+
+          <div className="react" id="description_bpm_txt">
+            PHPUnit, Symfony 7, SQL, Docker, CI/CD, PHP 8,EasyAdmin
+          </div>
+        </div>
+
+        <div>
+          <div id="description_bpm">Déscription de projet </div>
+
+          <div className="react" id="description_bpm_txt">
+          La gestion des stocks est le processus de gestion du flux des biens 
+                au sein d'une entreprise dans un cycle continu de commandes, de stockage, 
+                de production, de vente et de biens de restockage.
           </div>
         </div>
       </div>
