@@ -1,6 +1,7 @@
 import { AiFillGithub, AiFillYoutube } from "react-icons/ai";
 import twig_component from "./img/twig_component.PNG";
 import voter_symfony from "./img/voter_symfony.PNG";
+import dataprovider from "./img/provider.PNG";
 
 const Youtube = () => {
   return (
@@ -64,6 +65,32 @@ const Youtube = () => {
               </li>
             </ul>
           </div>
+        </div>
+
+
+
+        <div class="react_content">
+          <div id="react_div">
+            <div class="title_projet">Utilisation de DataProvider dans API Platform</div>
+            <a target="_blank" href="https://www.youtube.com/watch?v=W4CVWiNIyRI">
+              <img id="react" src={dataprovider} alt="portfolio" />
+            </a>
+            <ul>
+              <li>
+                <a target="_blank"
+                  id="react_link"
+                  href="https://www.youtube.com/watch?v=W4CVWiNIyRI"
+                >
+                  Voir <b>youtube</b> <AiFillYoutube />
+                </a>
+              </li>
+              <li>
+                
+              </li>
+            </ul>
+          </div>
+
+          
         </div>
         
       </div>
