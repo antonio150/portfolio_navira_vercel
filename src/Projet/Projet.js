@@ -304,8 +304,6 @@ const Projet = () => {
         </div>
       </div>
 
-
-
       <div>
         <hr />
         <div class="titre_projet">Gestion de stock </div>
@@ -316,10 +314,7 @@ const Projet = () => {
         </div>
 
         <div>
-          <a
-            id="site_link"
-            href="https://github.com/antonio150/gestion_stock"
-          >
+          <a id="site_link" href="https://github.com/antonio150/gestion_stock">
             Voir <b>Répositorie</b> <AiFillGithub />
           </a>
         </div>
@@ -336,9 +331,46 @@ const Projet = () => {
           <div id="description_bpm">Déscription de projet </div>
 
           <div className="react" id="description_bpm_txt">
-          La gestion des stocks est le processus de gestion du flux des biens 
-                au sein d'une entreprise dans un cycle continu de commandes, de stockage, 
-                de production, de vente et de biens de restockage.
+            La gestion des stocks est le processus de gestion du flux des biens
+            au sein d'une entreprise dans un cycle continu de commandes, de
+            stockage, de production, de vente et de biens de restockage.
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <div>
+        <hr />
+        <div class="titre_projet">API pour la gestion de reservation hotel </div>
+        <div>
+          <a href="https://github.com/antonio150/api-reservation-hotel">
+            <img className="react" src="https://masstech.com.bd/wp-content/uploads/2020/10/Hotel-Reservation-Software.png" alt="gestion_stock" />
+          </a>
+        </div>
+
+        <div>
+          <a id="site_link" href="https://github.com/antonio150/api-reservation-hotel">
+            Voir <b>Répositorie</b> <AiFillGithub />
+          </a>
+        </div>
+
+        <div>
+          <div id="description_bpm">Outils </div>
+
+          <div className="react" id="description_bpm_txt">
+            API Platform, Symfony 7, MySQL, PHP 8
+          </div>
+        </div>
+
+        <div>
+          <div id="description_bpm">Déscription de projet </div>
+
+          <div className="react" id="description_bpm_txt">
+            Application pour faire une reservation hotel. Concernant l'execution de cet application,
+            vous trouverez dans readme dans github les étapes à faire.
           </div>
         </div>
       </div>
