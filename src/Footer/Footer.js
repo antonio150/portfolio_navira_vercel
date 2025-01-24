@@ -7,13 +7,13 @@ const Footer = () => {
   return (
     <div id="footer">
       <div>
-        <BsFillTelephoneFill/> : 033 92 333 21
+        <BsFillTelephoneFill/> : +261 33 92 333 21
       </div>
 
       <div>
         <GrMail/> : antoniorollande@gmail.com
       </div>
-      Copyright © 2024 by Navira | Tous droit reserver
+      Copyright © 2025 by Navira | Tous droit reserver
 
       
     </div>

@@ -70,18 +70,13 @@ export const Contact = () => {
                         <label for="message"> Message : </label>
                         
                         <textarea name="message" placeholder='Saisir Message'  required/>
-                        
-                        
-                        
-                      
+                       
                 </div>
                
                 <div id="div_texteareaid">
                         <input type="text" name="message" id="texteareaid" placeholder='Saisir Message' />
                         </div>
                 <input id="submit" type="submit" value="Envoyé message" />
-
-               
         </form>
 
 
