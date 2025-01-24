@@ -1,129 +1,48 @@
 import React from "react";
 import "./Competences.css";
+import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
 
-import css from "./img/css.png";
-import html from "./img/html.png";
-import javascript from "./img/javascript.png";
-import php from "./img/php.png";
-import Prestashop from "./img/Prestashop.png";
-import react from "./img/react.png";
-import symfony from "./img/symfony.png";
-import jquery from "./img/jquery-cours.png";
-import WordPressLogo from "./img/WordPress-Logo.jpg";
+// Importation des icônes
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPhp, FaWordpress } from "react-icons/fa";
+import { SiSymfony, SiPrestashop, SiJquery } from "react-icons/si";
 
 const Competences = () => {
+  const skills = [
+    { name: "HTML", icon: <FaHtml5 />, value: 90, color: "#e34c26" },
+    { name: "CSS", icon: <FaCss3Alt />, value: 80, color: "#1572b6" },
+    { name: "JavaScript", icon: <FaJs />, value: 78, color: "#f7df1e" },
+    { name: "jQuery", icon: <SiJquery />, value: 75, color: "#0769ad" },
+    { name: "PHP", icon: <FaPhp />, value: 85, color: "#777bb4" },
+    { name: "PrestaShop", icon: <SiPrestashop />, value: 60, color: "#df0067" },
+    { name: "React", icon: <FaReact />, value: 70, color: "#61dafb" },
+    { name: "Symfony", icon: <SiSymfony />, value: 74, color: "#000000" },
+    { name: "WordPress", icon: <FaWordpress />, value: 50, color: "#21759b" },
+  ];
+
   return (
-    <div class="competences" id="competences">
-      <div class="title_compete"> COMPETENCES</div>
-
+    <div className="competences" id="competences">
+      <div className="title_compete">COMPETENCES</div>
       <div id="compete_logo">
-        <div className="section_img">
-
-        
-        <div className="align_img">
-          <img id="img_logo" src={css} />
-          <input
-            type="range"
-            id="vol"
-            name="vol"
-            value="40"
-            min="0"
-            max="50"
-          ></input>
-        </div>
-        <div className="align_img">
-          <img id="img_logo" src={html} />
-          <input
-            type="range"
-            id="vol"
-            name="vol"
-            value="45"
-            min="0"
-            max="50"
-          ></input>
-        </div>
-
-        <div className="align_img">
-          <img id="img_logo" src={javascript} />
-          <input
-            type="range"
-            id="vol"
-            name="vol"
-            value="39"
-            min="0"
-            max="50"
-          ></input>
-        </div>
-        <div className="align_img">
-          <img id="img_logo" src={jquery} />
-          <input
-            type="range"
-            id="vol"
-            name="vol"
-            value="40"
-            min="0"
-            max="50"
-          ></input>
-        </div>
-        <div className="align_img">
-          <img id="img_logo" src={php} />
-          <input
-            type="range"
-            id="vol"
-            name="vol"
-            value="43"
-            min="0"
-            max="50"
-          ></input>
-        </div>
-        </div>
-        <div className="section_img">
-        <div className="align_img">
-          <img id="img_logo" src={Prestashop} />
-          <input
-            type="range"
-            id="vol"
-            name="vol"
-            value="25"
-            min="0"
-            max="50"
-          ></input>
-        </div>
-
-        <div className="align_img">
-          <img id="img_logo" src={react} />
-          <input
-            type="range"
-            id="vol"
-            name="vol"
-            value="30"
-            min="0"
-            max="50"
-          ></input>
-        </div>
-        <div className="align_img">
-          <img id="img_logo" src={symfony} />
-          <input
-            type="range"
-            id="vol"
-            name="vol"
-            value="37"
-            min="0"
-            max="50"
-          ></input>
-        </div>
-        <div className="align_img">
-          <img id="img_logo" src={WordPressLogo} />
-          <input
-            type="range"
-            id="vol"
-            name="vol"
-            value="24"
-            min="0"
-            max="50"
-          ></input>
-        </div>
-      </div>
+        {skills.map((skill, index) => (
+          <div className="align_img" key={index}>
+            <div className="circle">
+              <CircularProgressbar
+                value={skill.value}
+                text={`${skill.value}%`}
+                styles={buildStyles({
+                  textColor: "white",
+                  pathColor: skill.color,
+                  trailColor: "rgba(255, 255, 255, 0.2)",
+                })}
+              />
+            </div>
+            <div className="icon" style={{ color: skill.color, fontSize: "2.5rem", marginTop: "1rem" }}>
+              {skill.icon}
+            </div>
+            <p className="skill_name">{skill.name}</p>
+          </div>
+        ))}
       </div>
     </div>
   );

@@ -2,17 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Aldrich");
 
 
-.presentation{
-        padding: 15px;
-       padding-top: 90px;
-    display: flex;
-    background-color: #5a7be8;
-    flex-wrap: wrap;
-    color: white;
-    font-family: 'Amatic SC';
-    align-content: space-around;
-    justify-content: space-around;
-}
+
 
 #img_antonio{
         max-width: 300px;
@@ -20,7 +10,7 @@
         background-color: #d4daed;
         /* border: solid 3px rgb(134, 76, 233); */
         margin: auto;
-        border-radius: 195px;
+        border-radius: 15px;
         box-shadow: 0px 0px 9px 9px #ffffff;
 
         animation: floatImage 4s ease-in-out infinite;
@@ -34,25 +24,12 @@
         }
 }
 
-@keyframes floatImage{
-        0%{
-                transform: translateY(0);
-        }
-
-        50%{
-                transform: translateY(-2.4rem);
-        }
-
-        100%{
-                transform: translateY(0);
-        }
-}
-
 .nom{
         font-size: 5em;
         font-weight: bold;
         margin-bottom: 29px;
         text-align: center;
+        font-family: 'Aldrich';
 }
 
 
@@ -126,6 +103,59 @@
         
 }
 
+/* Animation de fade-in */
+@keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      .presentation {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: auto;
+        background: linear-gradient(135deg, #1e3c72, #2a5298);
+        color: white;
+      }
+      
+      .define {
+        text-align: center;
+        animation: fadeIn 1.5s ease-in-out;
+      }
+      
+      .nom {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        animation: fadeIn 2s ease-in-out;
+      }
+      
+      .description {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        animation: fadeIn 2.5s ease-in-out;
+      }
+      
+      #img_antonio {
+        margin-top: 2rem;
+        max-width: 300px;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        animation: fadeIn 3s ease-in-out;
+      }
 
+      #img_antonio:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s ease-in-out;
+      }
+      
 
 
