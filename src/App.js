@@ -18,7 +18,7 @@ function App() {
       <title>Antonio Navira</title>
         <meta property="og:title" content="Antonio Navira" />
         <meta property="og:description" content="Bienvenue sur mon portfolio. Découvrez mes projets et mes compétences en développement web." />
-        <meta property="og:image" content="https://portfolio-navira.vercel.app/images/antonio.png" />
+        <meta property="og:image" content="https://portfolio-navira.vercel.app/favicon.ico" />
         <meta property="og:url" content="https://portfolio-navira.vercel.app" />
         <meta property="og:type" content="website" />
       </Helmet>
