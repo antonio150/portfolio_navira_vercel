@@ -8,6 +8,7 @@ import Presentation from "./Presentation/Presentation";
 import Projet from "./Projet/Projet";
 import Recherche from "./Recherche/Recherche";
 import Youtube from "./Youtube/youtube";
+import antonio from "../Home/img/antonio.png"
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <title>Antonio Navira</title>
         <meta property="og:title" content="Antonio Navira" />
         <meta property="og:description" content="Bienvenue sur mon portfolio. Découvrez mes projets et mes compétences en développement web." />
-        <meta property="og:image" content="https://portfolio-navira.vercel.app/logo.png" />
+        <meta property="og:image" content={antonio} />
         <meta property="og:url" content="https://portfolio-navira.vercel.app" />
         <meta property="og:type" content="website" />
       </Helmet>
