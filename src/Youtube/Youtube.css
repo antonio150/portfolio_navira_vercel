@@ -1,0 +1,101 @@
+/* Conteneur principal */
+.projet {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Dégradé violet-bleu */
+    color: white;
+    text-align: center;
+  }
+  
+  /* Titre principal */
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .title::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: white;
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+  
+  /* Section des projets */
+  .react_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Carte individuelle */
+  #react_div {
+    background: rgba(255, 255, 255, 0.1); /* Fond semi-transparent */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  #react_div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Titre de chaque projet */
+  .title_projet {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #ffde59; /* Jaune clair */
+  }
+  
+  /* Images */
+  #react {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  #react:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Liens YouTube */
+  #react_link {
+    color: #ffde59;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  #react_link:hover {
+    text-decoration: underline;
+    color: white;
+  }
+  
+  /* Description */
+  #description_bpm {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  #description_bpm_txt {
+    font-size: 0.9rem;
+    color: #e0e0e0;
+    line-height: 1.5;
+    margin-top: 5px;
+  }
+  

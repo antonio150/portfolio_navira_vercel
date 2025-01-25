@@ -28,7 +28,7 @@ const Projet = () => {
         </a>
         <ul>
           <li>
-            <a id="react_link" href="https://antso-tontolo-miaina.org/">
+            <a id="site_link" href="https://antso-tontolo-miaina.org/">
               Voir <b>Demo</b>
             </a>
           </li>

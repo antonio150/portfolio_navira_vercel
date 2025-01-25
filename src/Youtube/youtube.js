@@ -1,98 +1,62 @@
-import { AiFillGithub, AiFillYoutube } from "react-icons/ai";
+import { AiFillYoutube } from "react-icons/ai";
 import twig_component from "./img/twig_component.PNG";
 import voter_symfony from "./img/voter_symfony.PNG";
 import dataprovider from "./img/provider.PNG";
+import "./Youtube.css"; // Import du fichier CSS
 
 const Youtube = () => {
+  const tutorials = [
+    {
+      title: "Création du menu en Symfony utilisant twig-component",
+      img: twig_component,
+      link: "https://www.youtube.com/watch?v=2VChHj63OLY",
+      description:
+        "Un twig-component est une approche permettant de créer des composants réutilisables dans des fichiers Twig, facilitant la gestion des interfaces utilisateur dans des projets Symfony.",
+    },
+    {
+      title: "Ajout du voter pour la sécurité de l'application",
+      img: voter_symfony,
+      link: "https://www.youtube.com/watch?v=0MNXXqjUIro",
+      description:
+        "Un voter dans Symfony permet de gérer les droits d'accès en décidant si un utilisateur peut effectuer une action spécifique sur une ressource.",
+    },
+    {
+      title: "Utilisation de DataProvider dans API Platform",
+      img: dataprovider,
+      link: "https://www.youtube.com/watch?v=W4CVWiNIyRI",
+      description:
+        "Un DataProvider dans API Platform permet de personnaliser la manière dont les données sont récupérées pour les ressources exposées dans l'API.",
+    },
+  ];
+
   return (
-    <div class="projet" id="tutoriel">
-      <div class="title">TUTORIEL SUR YOUTUBE</div>
-
-      <div>
-        <div class="title_projet">
-          {" "}
-          Projet <b>Symfony</b>
-        </div>
-        <div class="react_content">
-          <div id="react_div">
-            <div class="title_projet">Création du menu en symfony utilisant twig-component</div>
-            <a target="_blank" href="https://www.youtube.com/watch?v=2VChHj63OLY">
-              <img id="react" src={twig_component} alt="portfolio" />
+    <div className="projet" id="tutoriel">
+      <div className="title">TUTORIEL SUR YOUTUBE</div>
+      <div className="react_content">
+        {tutorials.map((tutorial, index) => (
+          <div id="react_div" key={index}>
+            <div className="title_projet">{tutorial.title}</div>
+            <a target="_blank" rel="noopener noreferrer" href={tutorial.link}>
+              <img id="react" src={tutorial.img} alt="Projet YouTube" />
             </a>
             <ul>
               <li>
-                <a target="_blank"
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
                   id="react_link"
-                  href="https://www.youtube.com/watch?v=2VChHj63OLY"
+                  href={tutorial.link}
                 >
                   Voir <b>youtube</b> <AiFillYoutube />
                 </a>
               </li>
               <li>
-                <div id="description_bpm">Déscription du sujet</div>
-
-                <div id="description_bpm_txt">
-                Un twig-component est une approche ou une bibliothèque permettant 
-                de créer et d'utiliser des composants réutilisables dans 
-                des fichiers Twig, souvent dans le contexte de projets Symfony. 
-                Cela facilite la gestion des interfaces utilisateur en séparant 
-                clairement la logique et les éléments visuels en composants autonomes.
-                </div>
+                <div id="description_bpm">Description du sujet</div>
+                <div id="description_bpm_txt">{tutorial.description}</div>
               </li>
             </ul>
           </div>
-
-          <div id="react_div">
-            <div class="title_projet">Ajout du voter pour la securité de l'application</div>
-            <a target="_blank" href="https://www.youtube.com/watch?v=0MNXXqjUIro">
-              <img id="react" src={voter_symfony} alt="entreprise" />
-            </a>
-            <ul>
-              <li>
-                <a target="_blank" id="react_link" href="https://www.youtube.com/watch?v=0MNXXqjUIro">
-                  Voir <b>youtube</b> <AiFillYoutube />
-                </a>
-              </li>
-              <li>
-                <div id="description_bpm">Déscription du sujet</div>
-
-                <div id="description_bpm_txt">
-                Un voter dans Symfony est un composant utilisé pour gérer la 
-                gestion des droits d'accès. En gros, il permet de décider si 
-                un utilisateur a le droit d'effectuer une action spécifique sur une ressource 
-                (comme lire, modifier, ou supprimer un objet).
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-
-
-        <div class="react_content">
-          <div id="react_div">
-            <div class="title_projet">Utilisation de DataProvider dans API Platform</div>
-            <a target="_blank" href="https://www.youtube.com/watch?v=W4CVWiNIyRI">
-              <img id="react" src={dataprovider} alt="portfolio" />
-            </a>
-            <ul>
-              <li>
-                <a target="_blank"
-                  id="react_link"
-                  href="https://www.youtube.com/watch?v=W4CVWiNIyRI"
-                >
-                  Voir <b>youtube</b> <AiFillYoutube />
-                </a>
-              </li>
-              <li>
-                
-              </li>
-            </ul>
-          </div>
-
-          
-        </div>
-        
+        ))}
       </div>
     </div>
   );
