@@ -30,7 +30,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <div className="experience-container">
+    <div id="experience" className="experience-container">
       <h2 className="experience-title">Expériences Professionnelles</h2>
       <div className="experience-list">
         {experiences.map((exp, index) => (

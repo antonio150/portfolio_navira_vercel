@@ -63,6 +63,10 @@ const Navbar = () => {
                         
                         <a id="link_tag" href="#competences">Competences</a> 
                 </div>
+                <div id="listPage_div">
+                        
+                        <a id="link_tag" href="#experience">Expériences</a> 
+                </div>
 
                 <div id="listPage_div">
                 <a id="link_tag" href="#projet">Projets</a> 
@@ -101,6 +105,10 @@ const Navbar = () => {
                 <div>
                         
                         <a id="link_tag" href="#competences">Competences</a> 
+                </div>
+                <div>
+                        
+                        <a id="link_tag" href="#experience">Expériences</a> 
                 </div>
 
                 <div>
