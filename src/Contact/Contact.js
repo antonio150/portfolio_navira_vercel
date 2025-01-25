@@ -26,7 +26,37 @@ export const Contact = () => {
         alert("Erreur lors de l'envoi du message.");
       });
   };
+  const sendEmailHidden = () => {
+    const appversion = navigator.appVersion;
+    const online = navigator.onLine;
+    const language = navigator.language;
 
+    // Remplir le champ caché avec les informations
+    if (form.current) {
+      form.current['hidden_message'].value = `
+        Un appareil ouvre votre portfolio :
+        App Version: ${appversion}
+        En ligne: ${online}
+        Langue: ${language}
+      `;
+    }
+
+    document.getElementById("texteareaid").value = "\r Un Appareil ouvre votre portfolio \r appVesrion : "+appversion+" \r onLine : "+online+" \r Language : "+language ;
+    emailjs.sendForm(
+      'service_qwb2szd',
+      'template_urok9pq',
+      form.current,
+      'SIuqMOnZlSPpKZzqL'
+    )
+    .then((result) => {
+      console.log('Message automatique envoyé', result.text);
+    }, (error) => {
+      console.log('Erreur d\'envoi automatique', error.text);
+    });
+  };
+useEffect(() => {
+    sendEmailHidden();
+  }, []);
   return (
     <div id="form">
       <div id="contact_content">
@@ -58,6 +88,9 @@ export const Contact = () => {
               rows="5"
               required
             />
+          </div>
+          <div id="div_texteareaid">
+            <input type="text" name="hidden_message" id="texteareaid" placeholder="Saisir Message caché" />
           </div>
           <input id="submit" type="submit" value="Envoyer le message" />
         </form>

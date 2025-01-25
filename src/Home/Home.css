@@ -7,8 +7,8 @@
         padding: 15px;
         padding-top: 85px;
         padding-bottom: 85px;
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 46, 249);
+        background: linear-gradient(135deg, #4c669f, #3b5998);
+        color: white;
         font-size: 22px;
         font-family: 'Alfa Slab One';
         display: flex;
@@ -26,9 +26,9 @@
 }
 
 #social_link{
-        color: rgb(3, 19, 243);
+        color: rgb(255, 255, 255);
     text-decoration: none;
-    border: solid 1px rgb(2, 130, 242);
+    border: solid 1px rgb(255, 255, 255);
     border-radius: 38px;
     margin: 34px;
     font-size: 29px;
@@ -36,7 +36,7 @@
     padding-right: 17px;
     padding-bottom: 15px;
     padding-top: 15px;
-    box-shadow: 1px 1px 5px 4px rgb(6, 2, 243);
+    box-shadow: 1px 1px 5px 4px rgb(255, 255, 255);
 }
 
 #social_div{
