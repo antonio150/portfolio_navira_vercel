@@ -8,6 +8,7 @@ import Presentation from "./Presentation/Presentation";
 import Projet from "./Projet/Projet";
 import Recherche from "./Recherche/Recherche";
 import Youtube from "./Youtube/youtube";
+import Experience from "./Expereince/Experience";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
       <Home />
       <Presentation />
       <Competences />
+      <Experience />
       <Projet />
       <Recherche />
       <Youtube />
